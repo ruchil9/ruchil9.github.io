@@ -1,3 +1,76 @@
+.gallerywrapper{
+	width:100%;
+	background-color: white;
+}
+.gallerywrapper .heading {
+	 max-width: 1000px;
+	 margin: 0 auto;
+	 width: 100%;
+	 overflow: auto;
+	 font-size: 20px;
+}
+.gallerywrapper .items{
+	overflow: auto;
+    width: 1000px;
+    margin: 10px auto;
+    position: relative
+}
+
+.gallerywrapper .items .columns img{
+	width:90%;
+
+}
+ .gallerywrapper .items .columns img:hover{
+ 	box-shadow:  3px 3px 3px 3px #888888;
+ }
+
+.gallerywrapper .columns{
+	width: 25%;
+    float: left;
+    height: 100%;
+    /* padding: 20px 40px; */
+    /* text-align: center; */
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+.wishing{
+	background-color: #E8EBF1;
+	height:200px;
+	margin-top: -31px;
+	padding-top: 46px;
+}
+.wrapper{width: 25%;
+	margin:auto;
+
+}
+section .wishing p{
+	text-align: center;
+	font-size: 17px;
+	color: #565656;
+	/* width: 25%; */
+	margin: auto;
+	/*position: relative;
+	top: 60px;*/
+}
+section .wishing h4 {
+	text-align: left;
+	font-size: 20px;
+	font-style: italic;
+/*	position: absolute;
+	left: 510px;
+*/}
+
+section .wishing h5{
+	font-size: 16px;
+	font-style: italic;
+	text-align: right;
+	/*position: absolute;
+	left: 702px;*/
+	/* top: 1px; */
+}
+
+
 footer .footer-inner .columns ul li {
 	list-style-type: none;
 	color: #ddd;
@@ -65,6 +138,8 @@ footer .footer-inner .columns  {
 body{
 	margin: auto;
     max-width: 1500px;
+
+	 min-width: 1340px;
 }
 .shift-right {
  font-family:'Open Sans', sans-serif; 
@@ -81,7 +156,8 @@ header section{
 	    overflow: auto;
 }
 .top-header-bar{
-	position: fixed;
+/*	position: fixed;*/
+	z-index: 5px;
 	margin: auto;
 	max-width: 1500px;
 	min-width: 1340px;
