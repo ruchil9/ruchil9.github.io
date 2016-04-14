@@ -1,0 +1,124 @@
+html, html body {
+	height: 100%;
+}
+
+body {
+	background: url(img/ruchil-image.png) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	-webkit-transition: .5s; /* Safari */
+    transition: .5s;
+	text-decoration: none;
+}
+a:hover {
+	color: #7ec3ed !important;
+}
+.container {
+
+	max-width: 538px;
+	width: 100%;
+	-webkit-transition: 1s; /* Safari */
+    transition: 1s;
+    
+	padding-top: 53px;
+	position: relative;
+	top:88px;
+	background: #fff;
+	height: 492px;
+	max-height: 100%;
+	
+	margin-left: 130px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 33.71px;
+	font-weight: 700;
+	color: #2F8AE7;
+	margin: 0px 0px 0px 0px;
+	padding-left: 38px;
+	text-align: left;
+	/*padding:50px 10px 30px 10px;*/
+}
+h1 span {
+	font-weight: 300;
+	color: #000;
+}
+h2 {
+	font-weight: 300;
+	color: #000;
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 7.5px;
+	padding: 6px 38px 12px 38px;
+	margin: 0px 0px;
+	
+}
+
+
+.info {
+	    color: #333;
+	line-height: 25px;
+	font-size: 15.5px;
+	margin: 0px 0px;
+	padding: 30px 38px 10px 38px;
+	text-align: left;
+	/*border-bottom: 1px solid #7ec3ed;*/
+}
+
+.footer{
+	padding-top: 31px;
+    padding-left: 28px;
+    /* padding: 30px 38px 10px 38px; */
+    position: absolute;
+}
+.social-icons {
+	text-align: left;
+	font-size: 18px;
+	/*padding: 30px 0px;*/
+	/*position: relative;
+	top:134px;*/
+}
+
+
+.social-icons a {
+	color: #a6a7a8;
+	margin: 0px 10px;
+}
+
+.resume {
+margin-top: -19px;
+    /* padding: 30px 0px 50px 0px; */
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: right;
+    margin-left: 394px;
+}
+
+.resume a {
+	margin: 0px 10px;
+	display: inline-block;
+	color: #a6a7a8;
+	font-weight: 300;
+}
+
+
+
+@media (max-width:768px){ 
+
+	.container {
+		margin: 0px auto !important;
+		min-width: 538px;
+		height: auto !important;
+		min-height: 83%;
+		-webkit-transition: 1s; /* Safari */
+    	transition: 1s;
+	}
+}
