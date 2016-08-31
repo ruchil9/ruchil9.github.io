@@ -156,9 +156,9 @@ a:hover {
 }
 
 @keyframes mysimpleanimation { /* flame pulses */
-    0% { background: url(img/coffee1.PNG) no-repeat;}
-    50% {background: url(img/coffee2.PNG) no-repeat;}
- 	100% {background: url(img/coffee3.PNG) no-repeat;}
+    0% { background: url(img/coffee1.png) no-repeat;}
+    50% {background: url(img/coffee2.png) no-repeat;}
+ 	100% {background: url(img/coffee3.png) no-repeat;}
   /*  110% {background: url(img/coffee2.PNG) no-repeat;}*/
 }
 
