@@ -1,0 +1,284 @@
+
+html, html body {
+	height: 100%;
+}
+
+body {  
+	/*background: url(img/backimage.jpg) no-repeat;*/
+	/*background-attachment: fixed;*/
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+
+
+			background: linear-gradient(3deg, #1565c0,#654AFF, #f04b7e);
+			background-size: 600% 600%;
+
+			-webkit-animation: AnimationName 30s ease infinite;
+			animation: AnimationName 30s ease infinite;
+
+			@-webkit-keyframes AnimationName {
+			    0%{background-position:49% 0%}
+			    50%{background-position:52% 100%}
+			    100%{background-position:49% 0%}
+			}
+			@keyframes AnimationName { 
+			    0%{background-position:49% 0%}
+			    50%{background-position:52% 100%}
+			    100%{background-position:49% 0%}
+			}
+
+}
+a {
+	-webkit-transition: .5s; /* Safari */
+    transition: .5s;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff !important;
+}
+.contain{
+
+	max-width: 488px;
+	width: 100%;
+	-webkit-transition: 1s; /* Safari */
+    transition: 1s;
+    
+	padding:50px 30px 110px 30px;
+	position: relative;
+	top:88px;
+	background: #fff;
+	height: 406px;
+	max-height: 100%;
+	margin: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.name-card h1 {
+	font-weight: 600;
+	color:rgba(0,0,0,.8);
+	font-size: 31px}
+
+.name-card h2 {
+	    background-color:rgba(0,0,0,.9);
+    border: black;
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    display: inline;
+    white-space: pre-wrap;
+    border: 0 solid rgba(0,0,0,.9);
+    border-width: 0.19em 11px;
+    padding: 0px 0px 2px 0px;
+    /* letter-spacing: 7.5px; */
+    /* padding: 6px 38px 12px 38px; */
+    margin: 0px 0px 0px 0px;
+}
+
+
+.info {
+	color: rgba(0,0,0,.7);
+	line-height: 24px;
+	font-size: 14px;
+	margin: 0px 0px;
+	padding: 0px 64px 21px 52px;
+	text-align: left;
+	/*border-bottom: 1px solid #7ec3ed;*/
+}
+
+.left{
+	width:72%;
+	float:left;
+}
+
+.download p {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding:16px 0;
+    color: rgba(255,255,255,.78);
+    margin-bottom: 0;
+}
+.download a {
+	    color: white;
+    text-decoration: none;
+}
+
+.download{
+	width:100%;
+	height:inherit;
+	border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.right{
+	width:28%;
+	float:right;
+	height: inherit;
+	display: table;
+	border-left: 1px solid rgba(0,0,0,.15);
+}
+
+.coffee{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.coffee p{
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+	color: rgba(255,255,255,.78);
+}
+
+.coffee .icon{
+	    position: relative;
+    left: 31px;
+    height: 57px;
+    top: 6px;
+	width:100%;
+	opacity:0.38;
+	 background: url(img/coffee.PNG) no-repeat;
+	 background-position: center;
+	animation: mysimpleanimation 4s infinite;
+}
+
+@keyframes mysimpleanimation { /* flame pulses */
+    0% { background: url(img/coffee1.PNG) no-repeat;}
+    50% {background: url(img/coffee2.PNG) no-repeat;}
+ 	100% {background: url(img/coffee3.PNG) no-repeat;}
+  /*  110% {background: url(img/coffee2.PNG) no-repeat;}*/
+}
+
+.social-icons {
+	text-align: center;
+	font-size: 18px;
+	padding-bottom:16px;
+}
+
+
+.social-icons a {
+	color: rgba(255,255,255,.8);
+	margin: 0px 10px;
+}
+
+.social-icons span{
+	margin:16px 0 8px;
+	text-align:center;
+	display: block;
+	font-size: 14px;
+	font-weight: 300;
+	color: rgba(255,255,255,.78);
+}
+
+
+.contact {
+	display: block;
+    height: 133px;
+    max-width: 326px;
+    min-width: 308px;
+    margin:auto;
+  /*  background: #f04b7e;*/
+    color: white;
+    max-height: 133px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1), 0 7px 7px rgba(0,0,0,0.2);
+	background: linear-gradient(3deg, #1565c0, #654AFF, #f04b7e);
+			background-size: 600% 600%;
+
+			-webkit-animation: AnimationName 30s ease infinite;
+			animation: AnimationName 30s ease infinite;
+
+			@-webkit-keyframes AnimationName {
+			    0%{background-position:49% 0%}
+			    50%{background-position:52% 100%}
+			    100%{background-position:49% 0%}
+			}
+			@keyframes AnimationName { 
+			    0%{background-position:49% 0%}
+			    50%{background-position:52% 100%}
+			    100%{background-position:49% 0%}
+			}
+
+
+
+
+
+
+
+
+}	
+
+.profile {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -37px;
+    right: -14px;
+}
+
+/*name card css*/
+.name-card {
+    display: flex;
+    float: left;
+    margin-left: -210px;
+    margin-top: -56px;
+}
+
+@media only screen  and (min-device-width: 320px) and (max-device-width:768px) {
+
+.name-card{
+	    margin: 0 auto;
+    text-align: center;
+    float: none;
+    display: block;
+}
+.name-card h1{
+	font-size: 24px;
+	text-align: center;
+}
+
+.name-card h2{
+	text-align: center;
+
+	font-size:14px;
+}
+
+.profile{
+	display:inline-block;
+	align
+
+
+}
+
+.info{
+	padding: 0px 5px 21px 17px;
+	margin-top: 12px;
+}
+
+.contain{
+	top: 0px;
+	/*height:500px;*/
+}
+
+.contact{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
